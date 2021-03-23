@@ -55,19 +55,22 @@ a:hover {
 
 .link-icon {
   color: #000000;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 28px;
+
 }
 
 .link-icon span {
   font-size: 14px;
   padding-left: 4px;
   vertical-align: middle;
+
 }
 
 .link-a {
   text-decoration: none;
   color: #ffffff;
-  text-decoration: none;
+
 }
 
 @media (min-width: 768px) {
@@ -317,12 +320,15 @@ a:hover {
 /*------/ Title /------*/
 .title-wrap {
   padding-bottom: 4rem;
+
 }
 
 .title-a {
   text-decoration: none;
   font-size: 2.6rem;
   font-weight: 600;
+
+
 }
 
 .title-link {
@@ -362,6 +368,7 @@ a:hover {
   bottom: 20px;
   left: 0;
 }
+
 
 /*------/ Display Table & Table Cell /------*/
 .display-table {
@@ -1657,12 +1664,16 @@ a:hover {
 
 .card-footer-c {
   padding-left: .5rem;
+  text-align: center;
+
 }
 
 .card-box-ico {
   padding: 1rem 3rem 1rem 2.5rem;
-  border: 5px solid #2eca6a;
+  border: 3px solid #2eca6a;
+
 }
+
 
 .card-box-ico span {
   font-size: 4rem;
