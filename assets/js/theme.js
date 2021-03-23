@@ -70,7 +70,7 @@
         spinner: "off",
         stopLoop: "on",
         stopAfterLoops: 0,
-        stopAtSlide: 1,
+        stopAtSlide: 0,
         shuffle: "off",
         autoHeight: "off",
         fullScreenAutoWidth: "off",
