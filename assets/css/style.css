@@ -1505,8 +1505,10 @@ a:hover {
   margin-bottom: 0;
   padding: .6rem 0;
   font-size: 1.5rem;
+    color:#fff;
 
 }
+
 
 @media (min-width: 768px) {
   .card-header-b .title-2 {
