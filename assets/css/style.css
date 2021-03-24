@@ -1477,6 +1477,7 @@ a:hover {
   z-index: 2;
 }
 
+
 @media (min-width: 768px) {
   .card-header-b {
     bottom: 0px;
@@ -1497,12 +1498,14 @@ a:hover {
   letter-spacing: 0.030em;
   border-radius: 50px;
   text-decoration: none;
+
 }
 
 .card-header-b .title-2 {
   margin-bottom: 0;
   padding: .6rem 0;
   font-size: 1.5rem;
+
 }
 
 @media (min-width: 768px) {
@@ -1520,6 +1523,10 @@ a:hover {
 .card-header-b .title-2 a {
   color: #ffffff;
   text-decoration: none;
+
+}
+.card-header-b .title-2 a:hover{
+  color: #2eca6a;
 }
 
 .card-header-b .date-b {
