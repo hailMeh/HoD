@@ -35,7 +35,7 @@
         sliderType: "standard",
         sliderLayout: "fullscreen",
         dottedOverlay: "none",
-        delay: 4000,
+        delay: 5500,
         autoHeight: "on",
         minHeight: 480,
         navigation: {
