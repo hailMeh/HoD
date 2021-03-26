@@ -416,11 +416,11 @@ a:hover {
   margin: 0 4px;
   border-radius: 0;
   opacity: 1;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .carousel-pagination .swiper-pagination-bullet-active {
-  background-color: #63bd00;
+  background-color: #0088e5;
   width: 36px;
 }
 
@@ -714,8 +714,8 @@ a:hover {
 
 .navbar-default.navbar-reduce {
   transition: all .5s ease-in-out;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .navbar-default.navbar-reduce .nav-link {
@@ -1810,7 +1810,7 @@ a:hover {
 }
 
 .card-box-d:hover .card-overlay-hover {
-  background-color: #63bd00;
+  background-color: #0088e5;
   opacity: .9;
 }
 
@@ -2180,7 +2180,7 @@ footer .credits {
 .project-area {
   padding-top: 117px;
   padding-bottom: 122px;
-  border-bottom: 1px solid #dfdfdf; }
+  border-bottom: 5px solid #dfdfdf; }
 .project-area .project-item .project-thumb {
   box-shadow: 0px 10px 80px 0px rgba(167, 167, 167, 0.65);
   border-radius: 12px;
@@ -2200,7 +2200,9 @@ footer .credits {
   padding-top: 44px; }
 @media (max-width: 767px) {
   .project-area .project-item .project-content .title {
-    font-size: 26px; } }
+    font-size: 26px;
+
+  } }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .project-area .project-item .project-content .title {
     font-size: 30px; } }
@@ -2341,6 +2343,13 @@ footer .credits {
   overflow: hidden;
   position: relative;
   z-index: 10; }
+
+.project-case-area .project-case-item .project-case-thumb:hover {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
 
 .project-case-area .project-case-item .project-case-thumb img {
   width: 100%;
