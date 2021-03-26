@@ -2342,14 +2342,20 @@ footer .credits {
   border-radius: 12px;
   overflow: hidden;
   position: relative;
-  z-index: 10; }
+  z-index: 10;
+  border: 3px ridge #63bd00;
+
+}
 
 .project-case-area .project-case-item .project-case-thumb:hover {
   border-radius: 12px;
   overflow: hidden;
   position: relative;
   z-index: 10;
+  border: 4px ridge #63bd00;
+
 }
+
 
 .project-case-area .project-case-item .project-case-thumb img {
   width: 100%;
